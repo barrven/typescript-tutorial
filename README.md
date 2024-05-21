@@ -116,13 +116,15 @@ For each lesson, I will provide exercises to reinforce the concepts. Please comp
    - Create a `tsconfig.json` file with the following content:
      ```json
      {
-       "compilerOptions": {
-         "target": "es5",
-         "module": "commonjs",
-         "strict": true,
-         "esModuleInterop": true
-       }
-     }
+        "compilerOptions": {
+          "target": "es5",
+          "module": "commonjs",
+          "strict": true,
+          "esModuleInterop": true,
+          "outDir": "./dist"  // This line specifies the output directory
+        },
+        "include": ["src"]  // This line specifies the directory containing the TypeScript files
+      }
      ```
    - Create a `src` folder and a `main.ts` file inside it.
    - Write a simple TypeScript program in `main.ts`, for example:
