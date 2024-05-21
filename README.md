@@ -1,4 +1,4 @@
-# typescript-tutorial
+# Typescript Tutorial
 Tutorial repo for learning Typescript
 
 ### Lesson Outline for Learning TypeScript
